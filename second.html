@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Althea Nicole P. Enargan</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; flex-direction: column; background-image: radial-gradient(rgb(255, 205, 158), white);">
+    <img id="eye" src="img2.png" >
+    <button id="button1" style="height: 5vh; width: 5vw; order: 2; margin: 2vw; background-color: white; border: solid 0.5px rgb(109, 62, 31);" onclick="revertImage()">CLOSE</button>
+    <button id="button2" style="height: 5vh; width: 5vw; margin: 2vw; background-color: white; border: solid 0.5px rgb(109, 62, 31);" onclick="changeImage()">OPEN</button>
+    <script>
+        function changeImage() {
+            eye.src = "img1.png";
+        }
+        function revertImage() {
+            eye.src = "img2.png";
+        }
+    </script>
+</body>
+</html>
